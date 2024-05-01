@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listener.AllureListener"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/priya/IdeaProjects/TestNg/src/test/java/AllureDemo.java">
+        <classes>
+            <class name="AllureDemo">
+                <methods>
+                    <include name="t1"></include>
+                    <include name="t2"></include>
+                    <include name="t3"></include>
+                    <include name="Skipper"></include>
+                    <include name="Failure"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

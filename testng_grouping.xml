@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/priya/IdeaProjects/TestNg/src/test/java/Grouping.java">
+        <groups>
+            <run>
+<!--                Run only groups having tags as 'regression' -->
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Grouping"></class>
+        </classes>
+    </test>
+</suite>

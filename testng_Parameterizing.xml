@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="ParameterizingDemo">
+        <classes>
+            <class name="ParameterizingDemo">
+                <parameter name="browser" value="chrome"></parameter>
+                <parameter name="url" value="https://www.bbc.com/"></parameter>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="ParameterizingDemo2">
+        <classes>
+            <class name="ParameterizingDemo">
+                <parameter name="browser" value="chrome"></parameter>
+                <parameter name="url" value="https://www.google.com/"></parameter>
+            </class>
+        </classes>
+    </test>
+</suite>

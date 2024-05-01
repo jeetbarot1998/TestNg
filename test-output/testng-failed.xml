@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <listeners>
+    <listener class-name="Listener.AllureListener"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/priya/IdeaProjects/TestNg/src/test/java/AllureDemo.java(failed)">
+    <classes>
+      <class name="AllureDemo">
+        <methods>
+          <include name="Skipper"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Failure"/>
+        </methods>
+      </class> <!-- AllureDemo -->
+    </classes>
+  </test> <!-- C:/Users/priya/IdeaProjects/TestNg/src/test/java/AllureDemo.java(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

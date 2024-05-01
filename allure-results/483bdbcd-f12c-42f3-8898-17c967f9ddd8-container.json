@@ -1,0 +1,1 @@
+{"uuid":"483bdbcd-f12c-42f3-8898-17c967f9ddd8","name":"AllureDemo.setUp","children":["8b634eee-71fa-47bc-942b-c1e8864ff5ed"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1714587190901,"stop":1714587192004}],"afters":[],"start":1714587190901,"stop":1714587192004}
