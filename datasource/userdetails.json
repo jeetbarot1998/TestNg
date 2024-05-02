@@ -1,0 +1,16 @@
+{
+  "userdetails": [
+    {
+      "user": "ABC",
+      "password" : "CDE"
+    },
+    {
+      "user": "ABC",
+      "password" : "CDE"
+    },
+    {
+      "user": "ABC",
+      "password" : "CDE"
+    }
+  ]
+}
